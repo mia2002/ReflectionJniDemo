@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pub.yanng.reflectionjnidemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_void"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callVoid"
+        android:text="回调空方法"/>
+    <Button
+        android:id="@+id/btn_int"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callInt"
+        android:text="回调int方法"/>
+
+    <Button
+        android:id="@+id/btn_string"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callString"
+        android:text="回调String方法"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callInterface"
+        android:text="回调接口方法"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sayHello"
+        android:text="java反射调用sayHello()"/>
+
+
+
+</LinearLayout>
